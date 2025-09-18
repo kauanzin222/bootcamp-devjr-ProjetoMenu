@@ -110,8 +110,13 @@
                 </div>
             </div>
 
-            <div class="card-container">
+            <div class="dados-pessoais">
                 <div class="card-title">Dados Pessoais</div>
+
+                <input type="text" id="name" placeholder="Digite seu nome">
+                <input type="text" id="phone" placeholder="Digite seu telefone">
+                <input type="email" id="email" placeholder="Digite seu e-mail">
+
             </div>
 
             <br>
@@ -121,13 +126,14 @@
 
     </div>
 
-
-
-    <script src="js/javascript.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/quantity.js"></script>
+    <script src="js/javascript.js"></script>
 
+    <script>
+        $("#phone").mask("(99) 99999-9999");
+    </script>
 </body>
 
 </html>
