@@ -120,3 +120,11 @@ button {
     border-radius: 5px;
     box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.5);
 }
+
+#output {
+    width: 85%;
+    padding: 10px 22px;
+
+    font-size: 12px;
+    text-align: left;
+}
