@@ -2,17 +2,17 @@
     max-width: 90%;
     height: auto;
 
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .plate {
     max-width: 90%;
-    height: 170px;
+    height: 10.62rem;
 }
 
 .custo {
     color: #407543;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
 }
